@@ -1,27 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" , initial-scale="1.0"
-    <title>
-        My PORTFOLIO
-    </title>
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" href="mediaqueries.css"
-        </head>
-
+    <title>My Personal Portfolio</title>
+  </head>
   <body>
-<nav id="desktop">
-    <div class="logo"> Gliponeo, Kurt Russel</div>
-    <div>
-        <ul class="nav-links"
-        <li> <a href="#about">About</a>  </li>
-        <li>  <a href="#experience">Experience</a> </li>
-        <li>  <a href="#projects">Projects</a> </li>
-        <li>  <a href="#contacts">Contacts</a> </li>
-    </ul>
-    </div>
-</nav>
+    <font face="Lato">
 
+    
+
+      <!-- Right-side navigation -->
+      <div>
+        <center>
+          <br><br>
+        <a href="#home"><p></p>Home</a>
+        <a href="#contacts"><p></p>Contacts</a>
+        <a href="#about"><p></p>About</a>
+        <a href="#feedback"><p></p>Feedback</a>
+      </div>
+      <br><br>
+     </center>
+    </div>
+
+    <!-- Additional sections -->
+    <div></div>
+
+    <!-- Image Section -->
+    <table width="100%">
+      <tr>
+        <td width="15%"></td>
+        <td width="25%">
+          <img src="A.jpg" alt="My Image" width="400" height="400">
+        </td>
+        <td width="0%"></td> <!-- Empty space for proper alignment -->
+        <td width="40%">
+          <h1>| Hi, I'm Kurt Russel</h1>
+        </td>
+      </tr>
+    </table>
+
+    <!-- About Me Description -->
+    <div>
+      <center>
+        <h2><br><br>About Me<br><br></h2>
+        <p>Hello! I am currently a third-year student at TUP Manila, pursuing a Bachelor of Science in Information Systems (BSIS).</p>
+        <p>Alongside my studies, I work as a Student Assistant in the COS Dean's Office, where I gain valuable experience in administration.</p>
+        <p>I am passionate about programming and continuously developing my skills in this field.</p>
+      </center>
+    </div>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <center>
+        <h2><br><br>My Projects<br></h2>
+
+        <h3><br><br>Project 1: ATM</h3>
+        <div>
+          <h4>Description:</h4>
+          <p>My partner for this year is Thomas Joseph Almorin. We did a project simulating an ATM machine using C++.</p>
+          <p>It was intended to provide the concept of object-oriented programming and actual applications of encryption</p> 
+          <p> and decryption with regard to secure transactions.</p>
+          <h4>Technologies:</h4>
+          <p> Codeblocks, Internet, Google(for reference), Laptops, PCs, Cellphones, MS Teams(for meeting) </p>
+          <h4>Github Link:</h4>
+        </div>
+
+        <h3><br><br>Project 2: 2048 Game</h3>
+        <div>
+          <h4>Description:</h4>
+          <p>We implemented a popular version of the 2048 game, developed a console-based version of it, </p>
+          <p>and adopted the C programming language for the same in our first-year programming course. </p>
+          <p>We were trying to deepen our understanding of the basic programming concepts which include arrays,</p>
+          <p>loops, conditionals, and functions while also trying to improve our problem-solving skill in the process.</p>
+          <h4>Technologies:</h4>
+          <p> Codeblocks, Internet, Google(for reference), Laptops, PCs, Cellphones </p>
+          <h4>Github Link:</h4>
+        </div>
+
+        <!-- Project 3: Sync-O -->
+        <h3><br><br>Project 3: Sync-O</h3>
+        <div>
+          <h4>Description:</h4>
+          <p>It was at my second year of college when I designed an innovative music app called Sync-O, using Figma.</p>
+          <p>This was basically a project intended to provide a modern platform that would help listeners discover</p>
+          <p>and explore a diverse range of music.</p>
+          <h4>Technologies:</h4>
+          <p>Figma, Computers, Laptops, Internet, MS Teams, Messenger, Figma Mobile App(for tracking)</p>
+          <h4>Github Link:</h4>
+        </div>
+      </center>
+    </section>
+
+    <!-- Skills Section -->
+<section id="skills">
+  <center>
+    <h2><br><br>My Skills<br></h2>
+
+    <h3>Advanced</h3>
+    <center>
+      <ul>
+        <li>1. C</li>
+      </ul>
+    </center>
+
+    <h3>Intermediate</h3>
+    <center>
+      <ul>
+        <li>1. HTML</li>
+        <li>2. C++</li>
+      </ul>
+    </center>
+
+    <h3>Beginner</h3>
+    <center>
+      <ul>
+        <li>1. SQL</li>
+        <li>2. Java</li>
+      </ul>
+    </center>
+  </center>
+</section>
+
+
+    
+    <!-- Contact Section -->
+    <section id="contact">
+      <center>
+      <h2><br><br>Contact Me<br></h2>
+
+      <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="<h4>Github Link:</h4>name" required /><br /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="contact">Contact:</label>
+        <input id="contact" name="contact" required /><br /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" required></textarea><br /><br />
+
+        <input type="submit" value="Send" />
+      </form>
+    </center>
+    </section>
+
+    <!-- Footer Section -->
+    <footer><br><br>
+      <center>
+      <p>&copy; 2024 [Gliponeo, Kurt Russel T.].</p>
+      <p>
+        <a href="https://web.facebook.com/kurt.russel.752/">Facebook</a> |
+        <a href="https://github.com/GLIPONEO8">GitHub</a> |
+        <a href="https://www.linkedin.com/in/gliponeo-kurt-russel-459412316/"
+          >LinkedIn</a
+        >
+         </p>
+       </footer>
+      </center>
+    </font>
   </body>
 </html>
