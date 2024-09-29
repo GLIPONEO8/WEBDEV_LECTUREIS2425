@@ -1,14 +1,20 @@
+<!-- Kurt Russel T. Gliponeo BSIS 3A -->
+<!-- Activity#2 in Web Development: Creating a static portfolio -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <title>My Personal Portfolio</title>
   </head>
   <body>
+    <!-- For Font -->
     <font face="Lato">
 
-    
+    <!-- Main Section -->
+    <div>
+      
+      <h1><center>My Portfolio</center></h1>
 
-      <!-- Right-side navigation -->
+      <!-- Navigation Menu -->
       <div>
         <center>
           <br><br>
@@ -21,10 +27,7 @@
      </center>
     </div>
 
-    <!-- Additional sections -->
-    <div></div>
-
-    <!-- Image Section -->
+    <!-- My Own Image Section -->
     <table width="100%">
       <tr>
         <td width="15%"></td>
@@ -53,6 +56,7 @@
       <center>
         <h2><br><br>My Projects<br></h2>
 
+        <!-- Project 1: ATM -->
         <h3><br><br>Project 1: ATM</h3>
         <div>
           <h4>Description:</h4>
@@ -64,6 +68,7 @@
           <h4>Github Link:</h4>
         </div>
 
+        <!-- Project 2: 2048 Game -->
         <h3><br><br>Project 2: 2048 Game</h3>
         <div>
           <h4>Description:</h4>
@@ -90,11 +95,12 @@
       </center>
     </section>
 
-    <!-- Skills Section -->
+    <!-- My Skills Section -->
 <section id="skills">
   <center>
     <h2><br><br>My Skills<br></h2>
 
+    <!-- Advanced List -->
     <h3>Advanced</h3>
     <center>
       <ul>
@@ -102,6 +108,7 @@
       </ul>
     </center>
 
+    <!-- Intermidiate List -->
     <h3>Intermediate</h3>
     <center>
       <ul>
@@ -110,6 +117,7 @@
       </ul>
     </center>
 
+    <!-- Beginner List -->
     <h3>Beginner</h3>
     <center>
       <ul>
@@ -119,19 +127,19 @@
     </center>
   </center>
 </section>
-
-
     
     <!-- Contact Section -->
     <section id="contact">
       <center>
       <h2><br><br>Contact Me<br></h2>
 
+      <!-- This form uses the POST method to transmit data to the submit page. -->
       <form action="/submit" method="post">
         <label for="name">Name:</label>
+        <label for="email">Email:</label>
         <input type="text" id="name" name="<h4>Github Link:</h4>name" required /><br /><br />
 
-        <label for="email">Email:</label>
+        
         <input type="email" id="email" name="email" required /><br /><br />
 
         <label for="contact">Contact:</label>
